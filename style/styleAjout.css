@@ -1,0 +1,101 @@
+.container-fluid{
+    background-image: linear-gradient(to right, #fc7421, #f0cc93);
+    /* Obligatoire si on veut "voir" le dégradé */
+    width: 100%;
+  }
+  
+  .background {
+    background-image: linear-gradient(to left, #f8c471, #f8c471,  #f8c471, white);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+
+    
+  }
+  
+
+  
+  /* bandeau.gif */
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+  
+  .responsive:hover {
+     transform: scaleX(-1);
+  }
+  
+  /* valid.gif */
+  .morph div img {
+    width: 80px;
+    height: auto;
+    margin:50px;
+    padding:20px;
+    
+    -webkit-filter: grayscale(0) blur(0px);
+    filter: grayscale(0) blur(0px);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+   
+  .morph div:hover img {
+    width: 300px; /* on affiche l'image au carré */
+    height: auto;
+    border-radius: 50%;  /* on arrondit l'image */
+    -webkit-transform: rotate(360deg); /* rotation de l'image */
+    transform: rotate(360deg);
+  }
+  
+  .gretaLogo img{
+    width: 250px;
+    height: auto;
+    float: left;
+  }
+  
+  .livret img{
+    width: 350px;
+    height: auto;
+  }
+  .eduform img{
+    width: 200px;
+    height: auto;
+    float: right; 
+  }
+  
+  .gretaOrange img{
+    margin:50px;
+    padding:20px;
+    width: 300px;
+    height: auto;
+    float: right;
+  }
+  
+  .exclamation img{
+    width: 200px;
+    height: auto;
+  }
+  
+  
+  .form-heading {
+  width:100%;
+  height:auto;
+  background: #f8c471; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #f8c471); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,#fc7421,#fc7421,#f8c471,#f8c471); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin: 20px 0 40px;
+  padding: 10px;
+  }
+  .form-heading .prg{
+  color: #ffffff;
+  font-size: 23px;
+  }
+  .inline{
+  display:inline-block
+  }
+  
+   
+  
+  
