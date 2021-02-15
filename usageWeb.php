@@ -8,7 +8,7 @@ require_once("head.html");
     <span class="site-heading-lower">INTERFACE DE GESTION</span>
   </h1>
 
-<?php
+  <?php
 require_once("menu.html");
 ?>
 
@@ -24,7 +24,7 @@ require_once("menu.html");
             <p class="mb-3">Les <b>couleurs</b> et le <b>logo</b> de la page d'accueil sont en adéquation avec <b>la charte graphique</b>.</br> Le <b>titre</b> et <b>le bandeau de formations</b> sont animés en <em>Javascript</em> et <em>CSS</em>.
           </br>
             <div class="intro-button mx-auto">
-              <a class="btn btn-primary btn-xl" href="accueil.php">PAGE D'ACCUEIL</a>
+              <a class="btn btn-primary btn-xl" href="accueil.php" target="_blank">PAGE D'ACCUEIL</a>
             </div>
         </div>
       </div>
@@ -41,7 +41,7 @@ require_once("menu.html");
           </h2>
           <p>Un <b>motif</b> à l'entrée de chaque <b>champ</b>, ainsi qu'un <b>texte</b> à l'intérieur indiquent le contenu désiré.</br>La <b>taille</b> des champs est <b>adaptée</b> au contenu.   </p>
           <div class="intro-button mx-auto">
-            <a class="btn btn-primary btn-xl" href="ajout.php">FORMULAIRE D'AJOUT</a>
+            <a class="btn btn-primary btn-xl" href="ajout.php" target="_blank">FORMULAIRE D'AJOUT</a>
           </div></div>
       </div>
     </div>
@@ -57,13 +57,14 @@ require_once("menu.html");
           </h2>
           <p><em></em>Le formulaire de modification <b>affiche</b> les <b>informations</b> existantes dans la <b>base de données</b>. Il suffit de les <b>modifier</b> ou de les <b>compléter</b>.</br>Un <b>meu déroulant</b> permet de choisir l'action de formation à modifier ou à <b>supprimer</b>.</p>
           <div class="intro-button mx-auto">
-            <a class="btn btn-primary btn-xl" href="modif.php">MODIFICATION</a>
+            <a class="btn btn-primary btn-xl" href="modif.php" target="_blank">MODIFICATION</a>
           </div>
         </div>
       </div>
     </div>
   </div>
 </br>
+
 
 <?php
 require_once("footer.html");

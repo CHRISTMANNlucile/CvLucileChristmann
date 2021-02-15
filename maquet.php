@@ -19,5 +19,8 @@ require_once("menu.html");
     </div>
   </section>
 
+  <?php
+require_once("footer.html");
+?>
 </body>
 </html>
